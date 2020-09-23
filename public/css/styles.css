@@ -1,0 +1,277 @@
+/* Styling Body */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.main-body {
+    display: flex;
+}
+
+
+#weather-condition, #weather-days-container {
+    display: none;
+} 
+
+/* Styling home page */
+.homepage-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../assets/4207299.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.input-container {
+    width: 100%;
+    height: 100vh;
+    background: rgba(6, 7, 8, .5);
+    display: flex;
+    flex-direction: column;
+}
+
+.input-data {
+    margin: auto;
+    width: 90%;
+    height: 50vh;
+    background-color: #fff;
+    border: none;
+    border-radius: 3rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-box {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: .4rem;
+    outline: none;
+    padding: .7rem;
+    margin: 1rem 0;
+    position: relative;
+    top: 3rem;
+}
+
+.search-button {
+    width: 100%;
+    background-color: rgb(1, 145, 56);
+    border: none;
+    border-radius: .4rem;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+    position: relative;
+    top: 3rem;
+    cursor: pointer;
+    
+}
+
+.search-button:hover {
+    background-color: rgb(5, 68, 29);
+}
+
+/* Styling Weather Details */
+.weather-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.location-info-box {
+    display: flex;
+    position: relative;
+    left: 2.5rem;
+    top: 3rem;
+}
+
+ .city{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.country {
+    font-weight: 200;
+    position: relative;
+    left: .2rem;
+    top: .2rem;
+}
+
+.location-details-container {
+    width: 80%;
+    height: 60vh;
+    background-color: rgb(1, 145, 56);
+    margin: 4rem auto;
+    border: none;
+    border-radius: 1rem;
+    overflow-y: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.location-details-condition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.weather-icon {
+    height: 7rem;
+}
+
+.weather {
+    color: #fff;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    margin-bottom: .5rem;
+}
+
+.date {
+    color: #fff;
+    font-size: .7rem;
+    letter-spacing: .1rem;
+    font-weight: 200;
+}
+
+.temp {
+    font-size: 5rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.temp span {
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.next-container {
+    display: flex;
+    position: relative;
+    left: 55%;
+    bottom: 2rem;
+    cursor: pointer;
+}
+
+.next-icon {
+    position: relative;
+    left: 1rem;
+    top: .1rem;
+}
+
+.input-data-location {
+    width: 100%;
+    position: relative;
+    top: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.search-box-location {
+    border: 1px solid #000;
+    border-radius: .2rem;
+    padding: .7rem;
+    outline: none;
+    margin-right: .5rem;
+    width: 60%;
+}
+
+.search-button-location {
+    border: none;
+    background-color: rgb(1, 145, 56);
+    width: 30%;
+    border-radius: .2rem;
+    padding: .7rem;
+    color: #fff;
+    cursor: pointer;
+    font-size: .7rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.search-button-location:hover {
+    background-color: rgb(5, 68, 29);
+}
+
+
+/* Styling days Details */
+.weather-days-container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(1, 145, 56);
+}
+
+.location-info-days {
+    position: relative;
+    top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.city-white {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+
+.back-icon {
+    color: #fff;
+    position: relative;
+    right: 5rem;
+    top: .3rem;
+    cursor: pointer;
+}
+
+.country-white {
+    font-weight: 200;
+    color: #fff;
+    position: relative;
+    left: .2rem;
+    top: .05rem;
+}
+
+.days-container {
+    position: relative;
+    top: 4rem;
+    padding: 1.5rem;
+}
+
+.next-day {
+    color: #fff;
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
+
+.days-temp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.day {
+    color: #fff;
+    font-size: .85rem;
+}
+
+.day span {
+    font-weight: 200;
+    font-size: .85rem;
+}
+
+.hi-low {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.hi-low span {
+    font-size: .75rem;
+    font-weight: 200;
+}
+

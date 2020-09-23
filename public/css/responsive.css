@@ -1,0 +1,148 @@
+/* ipad/tablet */
+@media only screen and (min-width: 768px) {
+    .input-data {
+        width: 80%;
+        height: 40vh;
+        padding: 3rem;  
+    }
+
+    .search-box {
+        padding: 1rem;
+        font-size: 2rem;
+    }
+
+    .search-button {
+        font-size: 2rem;
+    }
+
+    .input-data-location {
+        top: 4rem; 
+    }
+
+    .search-box-location {
+        padding: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .search-button-location {
+        font-size: 2rem;
+    }
+
+    .location-info-box {
+        left: 5rem;
+        top: 5rem;
+    }
+
+    .city {
+        font-size: 2rem;
+    }
+
+    .country {
+        top: .1rem;
+        font-size: 2rem;
+    }
+
+    .location-details-container {
+        height: 50vh;
+        margin: 7rem auto; 
+    }
+
+    .location-details-condition {
+        padding: 4rem;
+    }
+
+    .weather {
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+
+    .date {
+        font-size: 1.3rem;
+    }
+
+    .temp {
+        font-size: 7rem;
+    }
+
+    .next {
+        font-size: 2rem;
+        font-weight: 200;
+    }
+
+    .location-info-days {
+        padding: 2rem;
+    }
+
+    .back-icon {
+        right: 20%;
+    }
+
+    .city-white {
+        font-size: 2rem;
+    }
+
+    .country-white {
+        font-size: 2rem;
+    }
+
+    .days-container {
+        padding: 3rem;
+    }
+
+    .next-day {
+        font-size: 1.5rem;
+    }
+
+    .day {
+        font-size: 1.5rem;
+    }
+
+    .day span {
+        font-size: 1.5rem;
+    }
+
+    .hi-low {
+        font-size: 1.5rem;
+    }
+
+    .hi-low span {
+        font-size: 1.2rem;;
+    }
+}
+
+
+@media only screen and (min-width: 1280px) {
+    .input-data {
+        width: 80%;
+        height: 60vh;
+        padding: 3rem;  
+    }
+
+    .input-data-location {
+        width: 90%;
+        left: 5rem;
+    }
+
+    .search-box-location {
+        padding: 1rem;
+    }
+
+    .location-info-box {
+        left: 9rem;
+        top: 7rem;
+    }
+
+    .location-details-container {
+        height: 90vh;
+        margin: 9rem auto;
+    }
+
+    .location-details-condition {
+        padding: 5rem;
+    }
+
+    .next-container {
+        bottom: 7rem;
+    }
+
+}
